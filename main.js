@@ -5,7 +5,7 @@ const info ={
 }
 
 const pageTitleEltment = document.createElement("h1");
-pageTitleEltment.innerText = title;
+pageTitleEltment.append(info.title);
 document.body.append(pageTitleEltment);
 
 let graduatesCountElement = document.createElement("input");
@@ -16,3 +16,9 @@ const areYouChampionEltment = document.createElement("input");
 areYouChampionEltment.type = "checkbox";
 areYouChampionEltment.checked=areYouChampionEltment;
 document.body.append(areYouChampionEltment);
+
+
+const YouChampionEltment = document.createElement("input");
+YouChampionEltment.type = "checkbox";
+YouChampionEltment.checked=YouChampionEltment;
+document.body.append(YouChampionEltment);

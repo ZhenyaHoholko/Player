@@ -56,6 +56,7 @@ function renderPlayList(anyPlayList){
 }
 
 function renderPlayListHeader(anyPlayListInfo){
+  
   const playListTitleEl = document.createElement("h1");
 playListTitleEl.append(anyPlayListInfo.title);
 document.body.append(playListTitleEl);
@@ -66,6 +67,7 @@ document.body.append(playListCoverEl);
 }
 
 function renderTrack(anyTrack){
+
   const trackEl=document.createElement("div");
   trackEl.append(anyTrack.artistName + " :" + anyTrack.trackTitle);
 }
