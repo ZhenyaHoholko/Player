@@ -9,13 +9,13 @@ pageTitleEltment.append(info.title);
 document.body.append(pageTitleEltment);
 
 let graduatesCountElement = document.createElement("input");
-graduatesCountElement.value = graduatesCount;
+graduatesCountElement.value = info.graduatesCount;
 document.body.append(graduatesCountElement);
 
 const areYouChampionEltment = document.createElement("input");
 areYouChampionEltment.type = "checkbox";
-areYouChampionEltment.checked=areYouChampionEltment;
-document.body.append(areYouChampionEltment);
+areYouChampionEltment.checked=info.areYouChampion;
+document.body.append(areYouChampion);
 
 
 const YouChampionEltment = document.createElement("input");

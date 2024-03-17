@@ -56,8 +56,7 @@ function renderPlayList(anyPlayList){
 }
 
 function renderPlayListHeader(anyPlayListInfo){
-  
-  const playListTitleEl = document.createElement("h1");
+const playListTitleEl = document.createElement("h1");
 playListTitleEl.append(anyPlayListInfo.title);
 document.body.append(playListTitleEl);
 
